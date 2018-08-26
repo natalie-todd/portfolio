@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
+// import Nav from './components/Front/Nav';
 import { Container, Button } from 'reactstrap';
 
 
 const Front = (props) => {
-    //not sure if I need any of the prop.Types stuff...
-    // Jumbotron.propTypes = {
-    //     // Pass in a Component to override default element
-    //     tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
-    //     fluid: PropTypes.bool,
-    //     className: PropTypes.string
-    //   };
-    
     return (
-        <div class='pug'>
-            {/* <Jumbotron fluid> */}
+        <div>
+            {/* <Nav /> */}
                 <Container fluid>
                 <h1 className="display-3">Full Stack Developer</h1>
                 <p className="lead">Based out of Denver, CO. My skillset
@@ -25,8 +18,7 @@ const Front = (props) => {
                     <Button color="primary">Projects</Button>
                 </p>
                 </Container>
-            {/* </Jumbotron> */}
-        </div>
+                </div>
     )
 }
 

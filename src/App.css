@@ -1,5 +1,5 @@
 .pug {
-  background-image: url("./assets/business-pug-working-on-laptop_925x.jpg"); 
+  background-color: plum; 
   height: 800px;
   display: inline-flex;
   justify-content: flex-end;
