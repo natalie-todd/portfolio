@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 const Nav = (props) => {
     return (
-                <header>
+                <div id='nav'>
                     <p> Nav test test</p>
-                </header>
+                </div>
     )
 }
 

@@ -18,7 +18,7 @@ const Front = (props) => {
                     <Button color="primary">Projects</Button>
                 </p>
                 </Container>
-                </div>
+       </div>
     )
 }
 

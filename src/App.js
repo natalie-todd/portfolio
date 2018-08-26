@@ -13,9 +13,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div class='pug'>
+        <div class='pug'>
         <Nav />
+        <div class='jumbo'>
         <Front />
+        </div>
         </div>
         <div>
           <Alert color="primary">
@@ -25,6 +27,7 @@ class App extends Component {
         <Projects />
         <Contact />
       </div>
+    
     );
   }
 }
