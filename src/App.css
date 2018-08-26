@@ -2,7 +2,7 @@
    background-color: plum; 
   height: 650px;
   display: flex;
-  /* justify-content: flex-end; */
+  justify-content: center;
   /* align-items: center; */
   /* text-align: center; */
   color: white;
@@ -43,10 +43,10 @@
   font-size: large;
 }
 
-/* #nav {
+Nav {
 display: flex;
-justify-content: flex-end;
-} */
+flex-direction: row;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

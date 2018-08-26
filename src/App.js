@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Alert } from 'reactstrap';
 
-import Nav from './components/Front/Nav';
+import NavHeader from './components/Front/NavHeader';
 import Front from './components/Front/Front';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <div class='pug'>
-        <Nav />
+        <NavHeader />
         <div class='jumbo'>
         <Front />
         </div>
