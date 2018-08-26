@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
       <Front />
-            <h1>Test test</h1>
+            <h1>App Test test</h1>
             <Projects />
             <Contact />
       </div>

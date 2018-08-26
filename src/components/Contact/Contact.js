@@ -1,16 +1,11 @@
-// import React, { Component } from 'react';
+import React, { Component } from 'react';
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './App.css';
+const Contact = (props) => {
+    return (
+                <header>
+                    <p>Contacts test test</p>
+                </header>
+    )
+}
 
-// class App extends Component {
-//     // state = { jobs: [] };
-//     render() {
-//         return (
-//             {/* <React.Fragment>
-            
-//             </React.Fragment> */}
-//     )
-//     }
-// }
-// export default Contact;
+export default Contact
