@@ -1,3 +1,20 @@
+.pug {
+  background-image: url("./assets/business-pug-working-on-laptop_925x.jpg"); 
+  height: 500px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-size: 51%;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  }
+
 .App {
   text-align: center;
 }
