@@ -3,7 +3,7 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 
 const NavHeader = (props) => {
     return (
-        <div>
+        <div className='divNav'>
             <Nav>
                 <NavItem>
                     <NavLink href="#">Link</NavLink>

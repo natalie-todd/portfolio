@@ -13,9 +13,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class='pug'>
+        <div className='pug'>
         <NavHeader />
-        <div class='jumbo'>
+        <div className='jumbo'>
         <Front />
         </div>
         </div>
