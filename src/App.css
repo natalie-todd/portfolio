@@ -1,8 +1,10 @@
 .pug {
-   background-color: plum; 
+   background-color: #8B80F9; 
   height: 650px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  /* justify-content: space-between; */
   /* align-items: center; */
   /* text-align: center; */
   color: white;
@@ -15,10 +17,10 @@
   padding-right: 0px !important; */
   }
 
-  .jumbo {
+  /* .jumbo {
     display: flex;
     align-items: center;
-  }
+  } */
 .App {
   text-align: center;
 }
@@ -35,6 +37,11 @@
   color: white;
 }
 
+.about {
+  background-color: #6CD4FF;
+  color: #484349;
+  /* margin: 0px !important; */
+}
 .App-title {
   font-size: 1.5em;
 }
@@ -43,9 +50,21 @@
   font-size: large;
 }
 
-Nav {
+.divNav {
 display: flex;
-flex-direction: row;
+align-self: flex-end;
+/* flex-direction: column; */
+/* align-items: flex-end;
+justify-content: flex-start; */
+
+}
+
+.bio {
+  color: #D9F0FF;
+}
+
+.bottom {
+  background-color: #191D32; 
 }
 
 @keyframes App-logo-spin {

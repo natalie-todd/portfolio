@@ -3,16 +3,16 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 
 const NavHeader = (props) => {
     return (
-        <div>
+        <div className='divNav'>
             <Nav>
                 <NavItem>
-                    <NavLink href="#">Link</NavLink>
+                    <NavLink href="#">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Link</NavLink>
+                    <NavLink href="#">Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Another Link</NavLink>
+                    <NavLink href="#">About</NavLink>
                 </NavItem>
             </Nav>
         </div>

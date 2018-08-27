@@ -7,27 +7,35 @@ import { Alert } from 'reactstrap';
 import NavHeader from './components/Front/NavHeader';
 import Front from './components/Front/Front';
 import Projects from './components/Projects/Projects';
+import About from './components/Contact/About';
+import Bio from './components/Contact/Bio';
 import Contact from './components/Contact/Contact';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class='pug'>
-        <NavHeader />
-        <div class='jumbo'>
-        <Front />
-        </div>
-        </div>
+        <header className='pug'>
+          <NavHeader />
+          <div className='jumbo'>
+            <Front />
+          </div>
+        </header>
         <div>
-          <Alert color="primary">
-            This is a primary alert — check it out!
-      </Alert>
+          <p>App.js is working</p>
         </div>
-        <Projects />
-        <Contact />
+        <main>
+          <Projects />
+        </main>
+        <footer>
+          <About />
+          <div className='bottom'>
+            <Bio />
+            <Contact />
+          </div>
+        </footer>
       </div>
-    
+
     );
   }
 }
