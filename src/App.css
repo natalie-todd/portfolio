@@ -59,6 +59,10 @@ justify-content: flex-start; */
 
 }
 
+.bio {
+  color: #D9F0FF;
+}
+
 .bottom {
   background-color: #191D32; 
 }

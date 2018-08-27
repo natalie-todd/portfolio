@@ -8,6 +8,7 @@ import NavHeader from './components/Front/NavHeader';
 import Front from './components/Front/Front';
 import Projects from './components/Projects/Projects';
 import About from './components/Contact/About';
+import Bio from './components/Contact/Bio';
 import Contact from './components/Contact/Contact';
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
         <footer>
           <About />
           <div className='bottom'>
+            <Bio />
             <Contact />
           </div>
         </footer>
