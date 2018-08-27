@@ -14,18 +14,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='pug'>
+        <header className='pug'>
           <NavHeader />
           <div className='jumbo'>
             <Front />
           </div>
-        </div>
+        </header>
         <div>
           <p>App.js is working</p>
         </div>
-        <Projects />
-        <About />
-        <Contact />
+        <main>
+          <Projects />
+        </main>
+        <footer>
+          <About />
+          <div className='bottom'>
+            <Contact />
+          </div>
+        </footer>
       </div>
 
     );

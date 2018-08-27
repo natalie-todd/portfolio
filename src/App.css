@@ -40,6 +40,7 @@
 .about {
   background-color: #6CD4FF;
   color: #484349;
+  /* margin: 0px !important; */
 }
 .App-title {
   font-size: 1.5em;
@@ -56,6 +57,10 @@ align-self: flex-end;
 /* align-items: flex-end;
 justify-content: flex-start; */
 
+}
+
+.bottom {
+  background-color: #191D32; 
 }
 
 @keyframes App-logo-spin {
