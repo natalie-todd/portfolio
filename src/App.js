@@ -7,6 +7,7 @@ import { Alert } from 'reactstrap';
 import NavHeader from './components/Front/NavHeader';
 import Front from './components/Front/Front';
 import Projects from './components/Projects/Projects';
+import About from './components/Contact/About';
 import Contact from './components/Contact/Contact';
 
 class App extends Component {
@@ -14,20 +15,19 @@ class App extends Component {
     return (
       <div className="App">
         <div className='pug'>
-        <NavHeader />
-        <div className='jumbo'>
-        <Front />
-        </div>
+          <NavHeader />
+          <div className='jumbo'>
+            <Front />
+          </div>
         </div>
         <div>
-          <Alert color="primary">
-            This is a primary alert — check it out!
-      </Alert>
+          <p>App.js is working</p>
         </div>
         <Projects />
+        <About />
         <Contact />
       </div>
-    
+
     );
   }
 }

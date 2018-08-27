@@ -1,9 +1,10 @@
 .pug {
-   background-color: plum; 
+   background-color: #8B80F9; 
   height: 650px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* justify-content: space-between; */
   /* align-items: center; */
   /* text-align: center; */
   color: white;
@@ -36,6 +37,10 @@
   color: white;
 }
 
+.about {
+  background-color: #6CD4FF;
+  color: #484349;
+}
 .App-title {
   font-size: 1.5em;
 }
@@ -48,6 +53,9 @@
 display: flex;
 align-self: flex-end;
 /* flex-direction: column; */
+/* align-items: flex-end;
+justify-content: flex-start; */
+
 }
 
 @keyframes App-logo-spin {
